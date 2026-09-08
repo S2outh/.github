@@ -9,4 +9,50 @@ The project was originally conceived in collaboration with the student team from
 go to the [website](https://south.wuespace.de/) to learn more about the project
 
 <!--autoindex:start-->
+S²OUTH Repository Navigation
+----------------------------
+
+### PCBs (software)
+URL | Description
+--- | ---:
+[pyro](https://github.com/S2outh/pyro) | 
+[eps](https://github.com/S2outh/eps) | 
+[lower-sensor](https://github.com/S2outh/lower-sensor) | 
+[radio-ground](https://github.com/S2outh/radio-ground) | 
+[radio-air](https://github.com/S2outh/radio-air) | 
+[upper-sensor](https://github.com/S2outh/upper-sensor) | 
+[umbilical](https://github.com/S2outh/umbilical) | 
+[black-box](https://github.com/S2outh/black-box) | 
+### Ground Support (GSE)
+URL | Description
+--- | ---:
+[trex](https://github.com/S2outh/trex) | T-Rex Antenna Tracking Software
+[main-server-config](https://github.com/S2outh/main-server-config) | NixOS System definition for S²OUTH Main Ground Server
+[frontend-viewer](https://github.com/S2outh/frontend-viewer) | 
+### Main Server
+URL | Description
+--- | ---:
+[south-database](https://github.com/S2outh/south-database) | 
+### Libraries
+URL | Description
+--- | ---:
+[embassy-nats](https://github.com/S2outh/embassy-nats) | A implementation of the NATS client protocol using embassy-net. It currently requires alloc.
+[south-common](https://github.com/S2outh/south-common) | Definition of all telemetry values and their respective types used in the south project
+[chell-sys](https://github.com/S2outh/chell-sys) | 
+[rocketlst-driver](https://github.com/S2outh/rocketlst-driver) | 
+[wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
+### Other
+- [.github](https://github.com/S2outh/.github) 
+- [pcb-template](https://github.com/S2outh/pcb-template) Template for kicad, for pcbs in hardware revision S²OUTH v4
+- [cc1101-driver](https://github.com/S2outh/cc1101-driver) 
+- [trex-board-test](https://github.com/S2outh/trex-board-test) Test implementation for the trex control board
+- [phoenix](https://github.com/S2outh/phoenix) 
+- [umbilical-linux](https://github.com/S2outh/umbilical-linux) im a cute description for umbilical
+- [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
+- [rocketlst-firmware](https://github.com/S2outh/rocketlst-firmware) 
+- [rocketlst-software](https://github.com/S2outh/rocketlst-software) 
+- [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
+- [hil-tests](https://github.com/S2outh/hil-tests) 
+- [T-REX-Tracking](https://github.com/S2outh/T-REX-Tracking) Embedded software for T-REX tracker.
+- [legacy-trex](https://github.com/S2outh/legacy-trex) 
 <!--autoindex:end-->
