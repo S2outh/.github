@@ -40,6 +40,9 @@ URL | Description
 [chell-sys](https://github.com/S2outh/chell-sys) | 
 [rocketlst-driver](https://github.com/S2outh/rocketlst-driver) | 
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
+[imu-driver](https://github.com/S2outh/imu-driver) | imu
+[magneto-driver](https://github.com/S2outh/magneto-driver) | 
+[baro-driver](https://github.com/S2outh/baro-driver) | 
 ### Other
 - [.github](https://github.com/S2outh/.github) 
 - [umbilical-linux](https://github.com/S2outh/umbilical-linux) im a cute description for umbilical
@@ -48,4 +51,6 @@ URL | Description
 - [rocketlst-software](https://github.com/S2outh/rocketlst-software) 
 - [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
 - [hil-tests](https://github.com/S2outh/hil-tests) 
+- [sensor_fusion](https://github.com/S2outh/sensor_fusion) 
+- [test-indicator-led-control-server](https://github.com/S2outh/test-indicator-led-control-server) Server to control the test indicator led
 <!--autoindex:end-->
