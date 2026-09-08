@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 24
           package-manager-cache: false # Disable automatic npm caching if not required
-      - run: gh repo ls S2outh --json name,url,description,repositoryTopics,isPrivate | node scripts/write-readme.js
+      - run: gh repo ls S2outh -L 100 --json name,url,description,repositoryTopics,isPrivate | node scripts/write-readme.js
         env:
           GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
