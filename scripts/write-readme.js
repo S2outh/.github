@@ -31,7 +31,7 @@ function commitAndPush(targetFile) {
     execSync(`git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"`);
     execSync(`git config --local user.name "github-actions[bot]"`);
     execSync(`git add ${JSON.stringify(targetFile)}`);
-    execSync(`git diff --cached --quiet || git commit -m [chore] Update org navigation`);
+    execSync(`git diff --cached --quiet || git commit -m "[chore] Update org navigation"`);
     execSync('git push');
     info('Pushed dashboard update.');
   } catch (err) {
