@@ -1,5 +1,5 @@
 const { execSync } = require('child_process');
-const core = require('@actions/core');
+//const core = require('@actions/core');
 const fs = require('fs');
 
 
@@ -17,13 +17,13 @@ let end_mark = "<!--autoindex:end-->"
 
 
 function info(text) {
-  //console.log(text)
-  core.info(text)
+  console.log(text)
+  //core.info(text)
 }
 
 function warning(text) {
-  //console.warn(text);
-  core.warning(text);
+  console.warn(text);
+  //core.warning(text);
 }
 
 function commitAndPush(targetFile) {
