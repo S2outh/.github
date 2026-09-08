@@ -3,7 +3,7 @@ on:
   schedule:
     # Every day at 12
     - cron: '0 12 * * *'
-  workflow_dispatch
+  workflow_dispatch:
 jobs:
   comment:
     runs-on: ubuntu-latest
