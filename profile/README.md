@@ -15,14 +15,14 @@ S²OUTH Repository Navigation
 ### PCBs (software)
 URL | Description
 --- | ---:
-[pyro](https://github.com/S2outh/pyro) | 
-[eps](https://github.com/S2outh/eps) | 
-[lower-sensor](https://github.com/S2outh/lower-sensor) | 
-[radio-ground](https://github.com/S2outh/radio-ground) | 
-[radio-air](https://github.com/S2outh/radio-air) | 
-[upper-sensor](https://github.com/S2outh/upper-sensor) | 
-[umbilical](https://github.com/S2outh/umbilical) | 
-[black-box](https://github.com/S2outh/black-box) | 
+[pyro](https://github.com/S2outh/pyro) | Actuation of recovery pyrotechnic charges
+[eps](https://github.com/S2outh/eps) | Battery management and power distribution
+[lower-sensor](https://github.com/S2outh/lower-sensor) | Tank and Engine pressure and temperature monitoring
+[radio-ground](https://github.com/S2outh/radio-ground) | Telemetry reception
+[radio-air](https://github.com/S2outh/radio-air) | Telemetry transmission
+[upper-sensor](https://github.com/S2outh/upper-sensor) | IMU, Magneto and GPS data aquisition and filtering for position estimation
+[umbilical](https://github.com/S2outh/umbilical) | On-pad communications via ethernet
+[black-box](https://github.com/S2outh/black-box) | Reliable CAN data logging
 ### Ground Support (GSE)
 URL | Description
 --- | ---:
@@ -44,11 +44,10 @@ URL | Description
 [magneto-driver](https://github.com/S2outh/magneto-driver) | 
 [baro-driver](https://github.com/S2outh/baro-driver) | 
 ### Other
-- [.github](https://github.com/S2outh/.github) 
-- [umbilical-linux](https://github.com/S2outh/umbilical-linux) im a cute description for umbilical
+- [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
+- [umbilical-linux](https://github.com/S2outh/umbilical-linux) CAN-NATS translation layer that emulates the functionality of the umbilical board
 - [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
 - [rocketlst-firmware](https://github.com/S2outh/rocketlst-firmware) 
-- [rocketlst-software](https://github.com/S2outh/rocketlst-software) 
 - [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
 - [hil-tests](https://github.com/S2outh/hil-tests) 
 - [sensor_fusion](https://github.com/S2outh/sensor_fusion) 
