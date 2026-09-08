@@ -1,5 +1,4 @@
 const { execSync } = require('child_process');
-//const core = require('@actions/core');
 const fs = require('fs');
 
 
@@ -15,15 +14,16 @@ let file_path = "./profile/README.md"
 let start_mark = "<!--autoindex:start-->\n"
 let end_mark = "<!--autoindex:end-->"
 
+let show_private_repos = false
+let show_archived_repos = false
+
 
 function info(text) {
   console.log(text)
-  //core.info(text)
 }
 
 function warning(text) {
   console.warn(text);
-  //core.warning(text);
 }
 
 function commitAndPush(targetFile) {
@@ -48,8 +48,13 @@ function getFormattedNavigation(repo_json) {
     out_string += `### ${topic["name"]}\n`;
     out_string += "URL | Description\n";
     out_string += "--- | ---:\n"
+
     for (let repo of repo_json) {
-      if (repo["done"] == true || repo["isPrivate"] == true || repo["repositoryTopics"] == null) continue;
+      if (repo["done"]) continue;
+      if (!show_archived_repos && repo["isArchived"]) continue;
+      if (!show_private_repos && repo["isPrivate"]) continue;
+      if (repo["repositoryTopics"] == null) continue;
+
       for (let repo_topic of repo["repositoryTopics"]) {
         if (repo_topic["name"] === topic["topic"]) {
           out_string += `[${repo["name"]}](${repo["url"]}) | ${repo["description"]}\n`;
@@ -61,7 +66,10 @@ function getFormattedNavigation(repo_json) {
 
   out_string += `### Other\n`
   for (let repo of repo_json) {
-    if (repo["done"] == true || repo["isPrivate"] == true) continue;
+    if (repo["done"]) continue;
+    if (!show_archived_repos && repo["isArchived"]) continue;
+    if (!show_private_repos && repo["isPrivate"]) continue;
+
     out_string += `- [${repo["name"]}](${repo["url"]}) ${repo["description"]}\n`
     repo["done"] = true;
   }
