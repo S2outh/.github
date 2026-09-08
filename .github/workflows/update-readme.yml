@@ -3,6 +3,7 @@ on:
   schedule:
     # Every day at 12
     - cron: '0 12 * * *'
+  workflow_dispatch
 jobs:
   comment:
     runs-on: ubuntu-latest
@@ -14,4 +15,4 @@ jobs:
           package-manager-cache: false # Disable automatic npm caching if not required
       - run: gh repo ls S2outh --json name,url,description,repositoryTopics | node scripts/write-readme.js
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
