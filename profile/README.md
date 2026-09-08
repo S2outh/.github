@@ -27,7 +27,6 @@ URL | Description
 URL | Description
 --- | ---:
 [trex](https://github.com/S2outh/trex) | T-Rex Antenna Tracking Software
-[main-server-config](https://github.com/S2outh/main-server-config) | NixOS System definition for S²OUTH Main Ground Server
 [frontend-viewer](https://github.com/S2outh/frontend-viewer) | 
 ### Main Server
 URL | Description
@@ -43,16 +42,10 @@ URL | Description
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
 ### Other
 - [.github](https://github.com/S2outh/.github) 
-- [pcb-template](https://github.com/S2outh/pcb-template) Template for kicad, for pcbs in hardware revision S²OUTH v4
-- [cc1101-driver](https://github.com/S2outh/cc1101-driver) 
-- [trex-board-test](https://github.com/S2outh/trex-board-test) Test implementation for the trex control board
-- [phoenix](https://github.com/S2outh/phoenix) 
 - [umbilical-linux](https://github.com/S2outh/umbilical-linux) im a cute description for umbilical
 - [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
 - [rocketlst-firmware](https://github.com/S2outh/rocketlst-firmware) 
 - [rocketlst-software](https://github.com/S2outh/rocketlst-software) 
 - [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
 - [hil-tests](https://github.com/S2outh/hil-tests) 
-- [T-REX-Tracking](https://github.com/S2outh/T-REX-Tracking) Embedded software for T-REX tracker.
-- [legacy-trex](https://github.com/S2outh/legacy-trex) 
 <!--autoindex:end-->
