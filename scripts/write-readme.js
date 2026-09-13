@@ -4,8 +4,8 @@ const fs = require('fs');
 
 let topics = [
   { "topic": "pcb-software", "name": "PCBs (software)"},
-  { "topic": "gse", "name": "Ground Support (GSE)"},
-  { "topic": "server", "name": "Main Server"},
+  { "topic": "gse", "name": "Ground Support Equipment (GSE)"},
+  { "topic": "driver", "name": "Device drivers"},
   { "topic": "library", "name": "Libraries"},
 ]
 
