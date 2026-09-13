@@ -23,26 +23,26 @@ URL | Description
 [radio-air](https://github.com/S2outh/radio-air) | Telemetry transmission
 [upper-sensor](https://github.com/S2outh/upper-sensor) | IMU, Magneto and GPS data aquisition and filtering for position estimation
 [black-box](https://github.com/S2outh/black-box) | Reliable CAN data logging
-### Ground Support (GSE)
+### Ground Support Equipment (GSE)
 URL | Description
 --- | ---:
 [trex](https://github.com/S2outh/trex) | T-Rex Antenna Tracking Software
 [frontend-viewer](https://github.com/S2outh/frontend-viewer) | 
-### Main Server
+[south-database](https://github.com/S2outh/south-database) | 
+### Device drivers
 URL | Description
 --- | ---:
-[south-database](https://github.com/S2outh/south-database) | 
+[rocketlst-driver](https://github.com/S2outh/rocketlst-driver) | 
+[imu-driver](https://github.com/S2outh/imu-driver) | driver for the lsm6dsv32 imu used in the south project
+[magneto-driver](https://github.com/S2outh/magneto-driver) | driver for the rm3100 magnetometer used by the south project
+[baro-driver](https://github.com/S2outh/baro-driver) | driver for the hscmrnn030pa barometer used by the south project
 ### Libraries
 URL | Description
 --- | ---:
-[embassy-nats](https://github.com/S2outh/embassy-nats) | A implementation of the NATS client protocol using embassy-net. It currently requires alloc.
+[embassy-nats](https://github.com/S2outh/embassy-nats) | An implementation of the NATS client protocol for embedded devices using embassy-net
 [south-common](https://github.com/S2outh/south-common) | Definition of all telemetry values and their respective types used in the south project
-[chell-sys](https://github.com/S2outh/chell-sys) | 
-[rocketlst-driver](https://github.com/S2outh/rocketlst-driver) | 
+[chell-sys](https://github.com/S2outh/chell-sys) | Serialization and communication backend used by the south project
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
-[imu-driver](https://github.com/S2outh/imu-driver) | imu
-[magneto-driver](https://github.com/S2outh/magneto-driver) | 
-[baro-driver](https://github.com/S2outh/baro-driver) | 
 ### Other
 - [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
 - [umbilical-linux](https://github.com/S2outh/umbilical-linux) CAN-NATS translation layer that emulates the functionality of the umbilical board
