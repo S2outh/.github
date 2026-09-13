@@ -27,12 +27,12 @@ URL | Description
 URL | Description
 --- | ---:
 [trex](https://github.com/S2outh/trex) | T-Rex Antenna Tracking Software
-[frontend-viewer](https://github.com/S2outh/frontend-viewer) | 
-[south-database](https://github.com/S2outh/south-database) | 
+[frontend-viewer](https://github.com/S2outh/frontend-viewer) | A simple GTK app for displaying a single webpage
+[south-database](https://github.com/S2outh/south-database) | A database service to ingress live telemetry data received via NATS into a QuestDB database
 ### Device drivers
 URL | Description
 --- | ---:
-[rocketlst-driver](https://github.com/S2outh/rocketlst-driver) | 
+[rocketlst-driver](https://github.com/S2outh/rocketlst-driver) | Driver for the OpenLST based tranceiver used by the south project
 [imu-driver](https://github.com/S2outh/imu-driver) | driver for the lsm6dsv32 imu used in the south project
 [magneto-driver](https://github.com/S2outh/magneto-driver) | driver for the rm3100 magnetometer used by the south project
 [baro-driver](https://github.com/S2outh/baro-driver) | driver for the hscmrnn030pa barometer used by the south project
