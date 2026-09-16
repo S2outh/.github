@@ -15,8 +15,8 @@ S²OUTH Repository Navigation
 ### PCBs (software)
 URL | Description
 --- | ---:
-[umbilical](https://github.com/S2outh/umbilical) | On-pad communications via ethernet
 [radio-ground](https://github.com/S2outh/radio-ground) | Telemetry reception
+[umbilical](https://github.com/S2outh/umbilical) | On-pad communications via ethernet
 [pyro](https://github.com/S2outh/pyro) | Actuation of recovery pyrotechnic charges
 [eps](https://github.com/S2outh/eps) | Battery management and power distribution
 [lower-sensor](https://github.com/S2outh/lower-sensor) | Tank and Engine pressure and temperature monitoring
@@ -39,8 +39,8 @@ URL | Description
 ### Libraries
 URL | Description
 --- | ---:
-[embassy-nats](https://github.com/S2outh/embassy-nats) | An implementation of the NATS client protocol for embedded devices using embassy-net
 [south-common](https://github.com/S2outh/south-common) | Definition of all telemetry values and their respective types used in the south project
+[embassy-nats](https://github.com/S2outh/embassy-nats) | An implementation of the NATS client protocol for embedded devices using embassy-net
 [chell-sys](https://github.com/S2outh/chell-sys) | Serialization and communication backend used by the south project
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
 ### Other
