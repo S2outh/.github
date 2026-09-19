@@ -17,11 +17,11 @@ URL | Description
 --- | ---:
 [radio-ground](https://github.com/S2outh/radio-ground) | Telemetry reception
 [umbilical](https://github.com/S2outh/umbilical) | On-pad communications via ethernet
+[upper-sensor](https://github.com/S2outh/upper-sensor) | IMU, Magneto and GPS data aquisition and filtering for position estimation
 [pyro](https://github.com/S2outh/pyro) | Actuation of recovery pyrotechnic charges
 [eps](https://github.com/S2outh/eps) | Battery management and power distribution
 [lower-sensor](https://github.com/S2outh/lower-sensor) | Tank and Engine pressure and temperature monitoring
 [radio-air](https://github.com/S2outh/radio-air) | Telemetry transmission
-[upper-sensor](https://github.com/S2outh/upper-sensor) | IMU, Magneto and GPS data aquisition and filtering for position estimation
 [black-box](https://github.com/S2outh/black-box) | Reliable CAN data logging
 ### PCBs (hardware)
 URL | Description
@@ -42,6 +42,7 @@ URL | Description
 ### Libraries
 URL | Description
 --- | ---:
+[south-common-ground](https://github.com/S2outh/south-common-ground) | Utilities and function common to the ground infrastructure of the south project
 [south-common](https://github.com/S2outh/south-common) | Definition of all telemetry values and their respective types used in the south project
 [embassy-nats](https://github.com/S2outh/embassy-nats) | An implementation of the NATS client protocol for embedded devices using embassy-net
 [chell-sys](https://github.com/S2outh/chell-sys) | Serialization and communication backend used by the south project
