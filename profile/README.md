@@ -48,9 +48,9 @@ URL | Description
 [embassy-nats](https://github.com/S2outh/embassy-nats) | An implementation of the NATS client protocol for embedded devices using embassy-net
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
 ### Other
+- [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
 - [umbilical-linux](https://github.com/S2outh/umbilical-linux) CAN-NATS translation layer that emulates the functionality of the umbilical board
 - [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
-- [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
 - [rocketlst-firmware](https://github.com/S2outh/rocketlst-firmware) 
 - [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
 - [hil-tests](https://github.com/S2outh/hil-tests) 
