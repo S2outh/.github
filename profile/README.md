@@ -29,9 +29,9 @@ URL | Description
 ### Ground Support Equipment (GSE)
 URL | Description
 --- | ---:
+[south-database](https://github.com/S2outh/south-database) | A database service to ingress live telemetry data received via NATS into a QuestDB database
 [trex](https://github.com/S2outh/trex) | T-Rex Antenna Tracking Software
 [frontend-viewer](https://github.com/S2outh/frontend-viewer) | A simple GTK app for displaying a single webpage
-[south-database](https://github.com/S2outh/south-database) | A database service to ingress live telemetry data received via NATS into a QuestDB database
 ### Device drivers
 URL | Description
 --- | ---:
