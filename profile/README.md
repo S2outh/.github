@@ -16,8 +16,8 @@ S²OUTH Repository Navigation
 URL | Description
 --- | ---:
 [radio-ground](https://github.com/S2outh/radio-ground) | Telemetry reception
-[radio-air](https://github.com/S2outh/radio-air) | Telemetry transmission
 [umbilical](https://github.com/S2outh/umbilical) | On-pad communications via ethernet
+[radio-air](https://github.com/S2outh/radio-air) | Telemetry transmission
 [pyro](https://github.com/S2outh/pyro) | Actuation of recovery pyrotechnic charges
 [lower-sensor](https://github.com/S2outh/lower-sensor) | Tank and Engine pressure and temperature monitoring
 [eps](https://github.com/S2outh/eps) | Battery management and power distribution
