@@ -42,9 +42,9 @@ URL | Description
 ### Libraries
 URL | Description
 --- | ---:
+[chell-sys](https://github.com/S2outh/chell-sys) | Serialization and communication backend used by the south project
 [embedded-nats](https://github.com/S2outh/embedded-nats) | An implementation of the NATS client protocol for embedded devices using embassy-net
 [south-common](https://github.com/S2outh/south-common) | Definition of all telemetry values and their respective types used in the south project
-[chell-sys](https://github.com/S2outh/chell-sys) | Serialization and communication backend used by the south project
 [south-common-ground](https://github.com/S2outh/south-common-ground) | Utilities and function common to the ground infrastructure of the south project
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
 ### Other
