@@ -16,8 +16,8 @@ S²OUTH Repository Navigation
 URL | Description
 --- | ---:
 [radio-ground](https://github.com/S2outh/radio-ground) | Telemetry reception
-[umbilical](https://github.com/S2outh/umbilical) | On-pad communications via ethernet
 [radio-air](https://github.com/S2outh/radio-air) | Telemetry transmission
+[umbilical](https://github.com/S2outh/umbilical) | On-pad communications via ethernet
 [pyro](https://github.com/S2outh/pyro) | Actuation of recovery pyrotechnic charges
 [lower-sensor](https://github.com/S2outh/lower-sensor) | Tank and Engine pressure and temperature monitoring
 [eps](https://github.com/S2outh/eps) | Battery management and power distribution
@@ -48,9 +48,10 @@ URL | Description
 [south-common-ground](https://github.com/S2outh/south-common-ground) | Utilities and function common to the ground infrastructure of the south project
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
 ### Other
-- [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
 - [umbilical-linux](https://github.com/S2outh/umbilical-linux) CAN-NATS translation layer that emulates the functionality of the umbilical board
 - [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
+- [chell-tilestion-transcoder](https://github.com/S2outh/chell-tilestion-transcoder) Converting chell definition to the correct tilestion import format
+- [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
 - [rocketlst-firmware](https://github.com/S2outh/rocketlst-firmware) 
 - [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
 - [hil-tests](https://github.com/S2outh/hil-tests) 
