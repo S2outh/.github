@@ -42,16 +42,16 @@ URL | Description
 ### Libraries
 URL | Description
 --- | ---:
-[south-common](https://github.com/S2outh/south-common) | Definition of all telemetry values and their respective types used in the south project
+[south-common](https://github.com/S2outh/south-common) | Definition of all telemetry values and their respective types as well as parsers used in the south project
 [chell-sys](https://github.com/S2outh/chell-sys) | Serialization and communication backend used by the south project
 [embedded-nats](https://github.com/S2outh/embedded-nats) | An implementation of the NATS client protocol for embedded devices using embassy-net
 [south-common-ground](https://github.com/S2outh/south-common-ground) | Utilities and function common to the ground infrastructure of the south project
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
 ### Other
-- [umbilical-linux](https://github.com/S2outh/umbilical-linux) CAN-NATS translation layer that emulates the functionality of the umbilical board
-- [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
 - [chell-tilestion-transcoder](https://github.com/S2outh/chell-tilestion-transcoder) Converting chell definition to the correct tilestion import format
 - [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
+- [umbilical-linux](https://github.com/S2outh/umbilical-linux) CAN-NATS translation layer that emulates the functionality of the umbilical board
+- [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
 - [rocketlst-firmware](https://github.com/S2outh/rocketlst-firmware) 
 - [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
 - [hil-tests](https://github.com/S2outh/hil-tests) 
