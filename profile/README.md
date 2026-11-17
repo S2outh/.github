@@ -48,10 +48,10 @@ URL | Description
 [south-common-ground](https://github.com/S2outh/south-common-ground) | Utilities and function common to the ground infrastructure of the south project
 [wfb-rs](https://github.com/S2outh/wfb-rs) | Rewriting wifibroadcast in Rust
 ### Other
-- [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
-- [chell-tilestion-transcoder](https://github.com/S2outh/chell-tilestion-transcoder) Converting chell definition to the correct tilestion import format
 - [umbilical-linux](https://github.com/S2outh/umbilical-linux) CAN-NATS translation layer that emulates the functionality of the umbilical board
 - [radio-linux-ground](https://github.com/S2outh/radio-linux-ground) 
+- [.github](https://github.com/S2outh/.github) Automatic Organization Navigation Menu
+- [chell-tilestion-transcoder](https://github.com/S2outh/chell-tilestion-transcoder) Converting chell definition to the correct tilestion import format
 - [rocketlst-firmware](https://github.com/S2outh/rocketlst-firmware) 
 - [setup-probe-rs-action](https://github.com/S2outh/setup-probe-rs-action) Action to ensure probe-rs is installed on the runner
 - [hil-tests](https://github.com/S2outh/hil-tests) 
